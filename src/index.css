@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	background-color: rgba(59,153,153 ,0.17);
+}
+
+#inputField {
+    font-family: "Outfit", sans-serif;
+    padding: 12px 8px;
+	margin: 2px;
+	border: 1px solid black;
+    width: 93%;
+    font-size: 1.5rem;
+    text-align: end;
+	border-radius: 20px;
+}
+
+img {
+    box-sizing: inherit;
+    height: 1.4rem;
+}
+
+#buttons-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.button {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    background-color: #61656865;
+    border: 2px solid #616568;
+    outline: none;
+    font-size: 1.8rem;
+    height: 65px;
+    border-radius: 20px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #6165689c;
+}
+
+.symbol-button{
+	background-color: #0dcaf065!important;
+	border: 2px solid #0dcaf0!important;
+}
+
+.symbol-button:hover{
+	background-color: #0dcaf09c!important;
+}
+
+.equal-button{
+	background-color: #fd7e1465!important;
+	border: 2px solid #fd7e14!important;
+}
+
+.equal-button:hover{
+	background-color: #fd7e149c!important;
+}
+
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+input, button, textarea, :focus {
+    outline: none; 
+}
